@@ -25,7 +25,8 @@ int main(){
 using namespace std;
 
 int main() {
-        char n,p;
+        int n;
+        char p;
         cin>>n;
         for(int i=0;i<n;i++)
         {
@@ -47,4 +48,5 @@ int main() {
 	// your code goes here
 	return 0;
 }
+
 
