@@ -20,3 +20,29 @@ int main() {
 	}
 	return 0;
 }
+
+// Or
+
+#include<iostream>
+using namespace std;
+int Sum(int x,int y)
+{
+        int sum;
+        sum=0;
+	for(int i=1;i<=(x*y);i++)
+	{
+		sum+=i;
+	}
+	cout<<sum<<endl;
+}
+int main()
+{
+	int n;
+	cin>>n;
+	while(n--)
+	{
+		int x,y;
+		cin>>x>>y;
+		Sum(x,y);
+	}
+}
