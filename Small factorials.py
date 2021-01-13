@@ -16,12 +16,14 @@ int main() {
 	// your code goes here
 	int T;
 	cin>>T;
-	for(int i=0;i<T;i++)
+	int N;
+	for(int i=0;i<N;i++)
 	{
-	    int N,fact=1;
-	    cin>>N;
+	    
+	   cin>>N;
 	    while(N>0)
 		{
+			fact=1;
 			fact*=N;
 			N--;
 		}
